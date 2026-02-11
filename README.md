@@ -56,10 +56,10 @@ SQL-Analysis-of-company-layoffs/
 
 ├── sql/
 
-│ ├── 1_create_tables.sql  
+│ ├── create_tables.sql  
 
-│ ├── 2_data_cleaning.sql 
+│ ├── data_cleaning.sql 
 
-│ ├── 3_analysis.sql
+│ ├── EDA.sql
 
 │ └── functions.sql 
