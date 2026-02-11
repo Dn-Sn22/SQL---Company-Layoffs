@@ -63,3 +63,7 @@ SQL-Analysis-of-company-layoffs/
 │ ├── EDA.sql
 
 │ └── functions.sql 
+
+## Текущие работы
+
+* C 12.02.2026 Идет работа над дэшбордом powerBI для текущего проекта, позже будет добавлен
