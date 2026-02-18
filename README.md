@@ -74,3 +74,8 @@ SQL-Analysis-of-company-layoffs/
 
 ├── LayoffsDash.pbix
 
+
+## Скрин дашборда
+
+![Снимок экрана 2026-02-18 200220](https://github.com/user-attachments/assets/d3be17dd-5190-4e97-a149-6aaeb10acec0)
+
