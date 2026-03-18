@@ -1,9 +1,9 @@
-#Company Layoffs Analysis
+# Company Layoffs Analysis
 
-##Project Description
+## Project Description
 This project is based on a Kaggle dataset tracking mass layoffs in the tech sector during a global economic slowdown. Rising interest rates from central banks, declining consumer spending, and a strengthening dollar led to widespread reductions across tech companies worldwide. Notably, Meta cut about 13% of its workforce (over 11,000 employees). The dataset covers the period from the COVID-19 pandemic announcement (March 11, 2020) to April 21, 2025.
 
-##Technologies Used
+## Technologies Used
 
 MySQL
 Window functions (ROW_NUMBER, DENSE_RANK, SUM OVER)
@@ -12,7 +12,7 @@ Aggregations and groupings
 Data transformation and standardization
 PowerBI
 
-##Data Sources
+## Data Sources
 
 Bloomberg
 San Francisco Business Times
@@ -22,7 +22,7 @@ The New York Times
 Aggregated by: Roger Lee
 -- https://www.kaggle.com/datasets/swaptr/layoffs-2022
 
-##Project Goal
+## Project Goal
 Build a complete analytical pipeline:
 
 * Data cleaning and standardization
@@ -32,7 +32,7 @@ Build a complete analytical pipeline:
 * Exploratory data analysis (EDA)
 * Dashboard visualization in PowerBI
 
-##Key Analysis Findings
+## Key Analysis Findings
 * Overall Picture:
 Over 682,000 employees were laid off from 2,154 companies worldwide between 2020–2025. 255 companies fully shut down, laying off 100% of their staff.
 
@@ -51,7 +51,7 @@ Post-IPO companies account for 60% of all layoffs—public companies faced the f
 * By Geography:
 The US dominates by a wide margin, reflecting the concentration of major tech companies there.
 
-##Repository Structure
+## Repository Structure
 
 SQL-Analysis-of-company-layoffs/
 ├── README.md
@@ -62,9 +62,11 @@ SQL-Analysis-of-company-layoffs/
 │   └── functions.sql
 └── LayoffsDash.pbix
 
-##Dashboard Screenshot
+## Dashboard Screenshot
 
 ![Снимок экрана 2026-02-18 200220](https://github.com/user-attachments/assets/d3be17dd-5190-4e97-a149-6aaeb10acec0)
+
+
 
 
 
