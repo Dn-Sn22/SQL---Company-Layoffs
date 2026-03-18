@@ -1,3 +1,74 @@
+#Company Layoffs Analysis
+
+##Project Description
+This project is based on a Kaggle dataset tracking mass layoffs in the tech sector during a global economic slowdown. Rising interest rates from central banks, declining consumer spending, and a strengthening dollar led to widespread reductions across tech companies worldwide. Notably, Meta cut about 13% of its workforce (over 11,000 employees). The dataset covers the period from the COVID-19 pandemic announcement (March 11, 2020) to April 21, 2025.
+
+##Technologies Used
+
+MySQL
+Window functions (ROW_NUMBER, DENSE_RANK, SUM OVER)
+CTEs
+Aggregations and groupings
+Data transformation and standardization
+PowerBI
+
+##Data Sources
+
+Bloomberg
+San Francisco Business Times
+TechCrunch
+The New York Times
+
+Aggregated by: Roger Lee
+-- https://www.kaggle.com/datasets/swaptr/layoffs-2022
+
+##Project Goal
+Build a complete analytical pipeline:
+
+* Data cleaning and standardization
+* Duplicate removal
+* Handling missing values
+* Data type transformations
+* Exploratory data analysis (EDA)
+* Dashboard visualization in PowerBI
+
+##Key Analysis Findings
+* Overall Picture:
+Over 682,000 employees were laid off from 2,154 companies worldwide between 2020–2025. 255 companies fully shut down, laying off 100% of their staff.
+
+* Yearly Trends:
+Layoffs peaked in 2023 with over 210,000 people. Sharp growth began in 2022 after the hiring boom during the 2020–2021 pandemic, when tech companies massively expanded amid surging demand for digital services.
+
+* Layoff Leaders:
+Intel, Amazon, and Microsoft top the list by absolute numbers. Big Tech bears the brunt of reductions due to their scale and aggressive hiring in 2020–2021.
+
+* By Industry:
+Retail, Consumer, and Transportation suffered most alongside tech, reflecting broader post-pandemic economic restructuring and inflation pressure on consumer demand.
+
+* By Funding Stage:
+Post-IPO companies account for 60% of all layoffs—public companies faced the fastest pressure from shareholders to cut costs.
+
+* By Geography:
+The US dominates by a wide margin, reflecting the concentration of major tech companies there.
+
+##Repository Structure
+
+SQL-Analysis-of-company-layoffs/
+├── README.md
+├── sql/
+│   ├── create_tables.sql
+│   ├── data_cleaning.sql
+│   ├── EDA.sql
+│   └── functions.sql
+└── LayoffsDash.pbix
+
+##Dashboard Screenshot
+
+![Снимок экрана 2026-02-18 200220](https://github.com/user-attachments/assets/d3be17dd-5190-4e97-a149-6aaeb10acec0)
+
+
+
+
 # Анализ увольнений компаний (Layoffs)
 
 ##  Описание проекта
