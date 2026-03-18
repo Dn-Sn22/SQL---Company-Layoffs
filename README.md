@@ -15,9 +15,13 @@ PowerBI
 ## Data Sources
 
 Bloomberg
+
 San Francisco Business Times
+
 TechCrunch
+
 The New York Times
+
 
 Aggregated by: Roger Lee
 -- https://www.kaggle.com/datasets/swaptr/layoffs-2022
