@@ -64,13 +64,21 @@ The US dominates by a wide margin, reflecting the concentration of major tech co
 ## Repository Structure
 
 SQL-Analysis-of-company-layoffs/
+
 ├── README.md
+
 ├── sql/
+
 │   ├── create_tables.sql
+
 │   ├── data_cleaning.sql
+
 │   ├── EDA.sql
+
 │   └── functions.sql
+
 └── LayoffsDash.pbix
+
 
 ## Dashboard Screenshot
 
