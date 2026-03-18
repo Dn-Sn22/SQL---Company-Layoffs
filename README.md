@@ -6,11 +6,17 @@ This project is based on a Kaggle dataset tracking mass layoffs in the tech sect
 ## Technologies Used
 
 MySQL
+
 Window functions (ROW_NUMBER, DENSE_RANK, SUM OVER)
+
 CTEs
+
 Aggregations and groupings
+
 Data transformation and standardization
+
 PowerBI
+
 
 ## Data Sources
 
